@@ -5,7 +5,7 @@ import numpy as np
 
 def main():
     st.markdown("<h1>방이 깨끗한지 🧼✨<br>더러운지 🗑️🤢 확인해보세요!</h1>", unsafe_allow_html=True)
-    st.info('🧞‍♂️방 사진을 올려주시면, 방이 깨끗한지 더러운지 확인해드립니다!')
+    st.info('🧞‍♂️당신의 방 사진을 올려주시면, 방이 깨끗한지 더러운지 제가 확인해드립니다!')
     st.write("🔗 딥러닝 데이터 출처: [Kaggle Dataset](https://www.kaggle.com/datasets/cdawn1/messy-vs-clean-room)")
     image = st.file_uploader("Choose a file", type=['jpg', 'jpeg', 'png','webp'])
     if image is not None:
